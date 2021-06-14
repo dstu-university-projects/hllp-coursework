@@ -1,9 +1,12 @@
 ﻿using System;
 namespace Сoursework
 {
-    public class Task1
+    public class Task1 : Task
     {
-        public void Start() {
+        public override int TaskNumber => 1;
+
+        public override void Main()
+        {
             var input = new double[] { 10, 5, -4, 1 };
             foreach (double value in input)
             {
@@ -22,7 +25,6 @@ namespace Сoursework
         {
             return (Math.Sin(2 * a) + Math.Sin(5 * a) - Math.Sin(3 * a)) / (Math.Cos(a) - Math.Cos(3 * a) + Math.Cos(5 * a));
         }
-
 
         private double CalculateZTan(double a)
         {
