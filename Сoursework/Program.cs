@@ -6,8 +6,15 @@ namespace Сoursework
     {
         static void Main(string[] args)
         {
-            var task1 = new Task1();
-            task1.Start();
+
+            var tasks = new Task[] {
+                new Task1(),
+
+            };
+
+            foreach (Task task in tasks) {
+                task.Start();
+            }
         }
     }
 }

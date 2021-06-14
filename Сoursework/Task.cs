@@ -1,12 +1,13 @@
 ﻿using System;
 namespace Сoursework
 {
-    abstract class Task
+    public abstract class Task
     {
         public void Start() {
-            Console.WriteLine("Starting task " + TaskNumber + " ...");
+            Console.WriteLine("-----------------------------------\n");
+            Console.WriteLine("Starting task " + TaskNumber + "...");
             Main();
-            Console.WriteLine("Task " + TaskNumber + " ended.\n");
+            Console.WriteLine("\nTask " + TaskNumber + " ended.");
         }
 
         public abstract void Main();
