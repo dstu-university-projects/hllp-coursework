@@ -10,7 +10,7 @@ namespace Сoursework
             var tasks = new Task[] {
                 new Task1(),
                 new Task2(),
-
+                new Task3(),
             };
 
             foreach (Task task in tasks) {

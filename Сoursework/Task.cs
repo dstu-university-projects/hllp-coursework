@@ -5,7 +5,7 @@ namespace Сoursework
     {
         public void Start() {
             Console.WriteLine("-----------------------------------\n");
-            Console.WriteLine("Starting task " + TaskNumber + "...");
+            Console.WriteLine("Starting task " + TaskNumber + "...\n");
             Main();
             Console.WriteLine("\nTask " + TaskNumber + " ended.");
         }
