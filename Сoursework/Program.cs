@@ -11,6 +11,7 @@ namespace Сoursework
                 new Task1(),
                 new Task2(),
                 new Task3(),
+                new Task4(),
             };
 
             foreach (Task task in tasks) {
